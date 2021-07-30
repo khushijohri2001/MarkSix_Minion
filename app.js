@@ -1,1 +1,1 @@
-console.log("Hello World");
+alert("Wonderful! This site is working.")
