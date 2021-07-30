@@ -1,1 +1,2 @@
-alert("Wonderful! This site is working.")
+var userName= prompt("What's your name?")
+alert("Wonderful! "+ userName +" This site is working.");
