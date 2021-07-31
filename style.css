@@ -14,6 +14,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    box-shadow: 2px 4px 4px #3c3c3c;
 
 }
 
@@ -53,7 +54,7 @@
 .center-header {
     align-self: center;
     margin-left: 3rem;
-    
+
     text-align: center;
     padding: 0.4rem;
 
@@ -75,7 +76,7 @@ h1 {
 }
 
 .right-header {
-  align-self: auto;
+    align-self: auto;
 }
 
 
@@ -83,12 +84,12 @@ h1 {
 
 /* section */
 .fconatiner {
-    
+
     height: 45vh;
-    
+
 }
 
-.fitem{
+.fitem {
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -97,8 +98,9 @@ h1 {
 
 
 }
-.child{
-   margin: 0.5rem;
+
+.child {
+    margin: 0.5rem;
 }
 
 .in-data textarea {
@@ -108,31 +110,33 @@ h1 {
     border: 0.2rem solid #00008a;
     background-color: rgb(233, 233, 255);
     border-radius: 2rem;
-    
-
+    padding: 1.5rem;
+    box-shadow: 2px 2px 4px #3c3c3c;
 }
 
 ::placeholder {
 
     padding: 2rem;
-    font-size:1rem;
-    color:rgb(71, 71, 71);
-    
+    font-size: 1rem;
+    color: rgb(71, 71, 71);
+
 }
 
-.out-data textarea {
+.out-data {
 
     width: 15rem;
     height: 15rem;
     border: 0.2rem solid #e45300;
     background-color: rgb(255, 235, 213);
     border-radius: 2rem;
-    
+    padding: 1.5rem;
+    box-shadow: 2px 2px 4px #3c3c3c;
+
 
 }
 
 #btn-translate {
-    margin:2rem;
+    margin: 2rem;
     width: 4rem;
     height: 4rem;
     color: rgb(0, 180, 0);
@@ -140,5 +144,13 @@ h1 {
     font-size: 4rem;
     padding-bottom: 4.5rem;
     padding-left: 0.3rem;
-    
+    box-shadow: 2px 2px 4px #3c3c3c;
+
+}
+
+.foot{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: larger;
+    font-weight: bold;
 }
