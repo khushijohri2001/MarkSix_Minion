@@ -14,13 +14,14 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    
 }
 
-/* .flex{
-    border: 3px solid #333;
-    background-color: #dfdfdf;
+.flex{
+    border: 0px solid #333;
+    background-color: transparent;
     
-} */
+}
 
 .items-center {
     align-items: center;
@@ -50,7 +51,7 @@
 
 .center-header {
     align-self: center;
-    margin-left: 9rem;
+    margin-left: 7rem;
     text-align: center;
     padding: 0.4rem;
 
@@ -60,6 +61,7 @@
 .bg {
     background-image: linear-gradient(to right, #fcf17c, #ffa600, #ff7300);
     border: 6% solid rgb(170, 82, 0);
+  
 }
 
 h1 {
@@ -72,8 +74,7 @@ h1 {
 
 .right-header {
     align-self: center;
-    margin-left: -2rem;
-    margin-right:-2rem;
+    
     
 }
 
