@@ -1,64 +1,83 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
-    
-   display: flex;
+@media (max-width: 900px) {
+    .container {
+        flex-direction: row;
+    }
 }
 
-.flex{
-    
-    
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .flex{
     border: 3px solid #333;
     background-color: #dfdfdf;
-}
-
-.items-center{
-    align-items:center;
-}
-
-.header-img{
     
-    max-width: 90%;       
+} */
+
+.items-center {
+    align-items: center;
+    margin-left: 2rem;
 }
-.img{
-    max-width:70%;
-    vertical-align: auto;
+
+.header-img {
+
+    max-width: 70%;
 
 }
 
-.justify-between{
-    justify-content: space-between;
-}
-.left-header{
-   height:0rem;
+.img {
+    max-width: 30%;
+
+
 }
 
-.center-header{
-    width: 100rem;
-    padding: 2rem;
-    font-size: 2rem;
+
+.left-header {
+    align-self: center;
+    margin-left: -1rem;
+    margin-right: -2rem;
+    
+
+}
+
+.center-header {
+    align-self: center;
+    margin-left: 9rem;
     text-align: center;
-    background-image: linear-gradient(to right, #fcf17c, #ffa600);
-    border: 3px solid rgb(170, 82, 0);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-}
-h1{
-    background: linear-gradient( to right, #000469, #040ab8, #dedfff);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+    padding: 0.4rem;
+
+
 }
 
-.right-header{
-    height:0rem;
-    margin-right: -8rem;
+.bg {
+    background-image: linear-gradient(to right, #fcf17c, #ffa600, #ff7300);
+    border: 6% solid rgb(170, 82, 0);
 }
 
-.in-data textarea{
+h1 {
+    background: linear-gradient(to right, #000236, #03089e, #5a5ffc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5vw;
+
+}
+
+.right-header {
+    align-self: center;
+    margin-left: -2rem;
+    margin-right:-2rem;
+    
+}
+
+.in-data textarea {
     margin-top: 10.4rem;
     margin-left: 2rem;
     width: 35rem;
@@ -66,14 +85,16 @@ h1{
     border: 0.2rem solid #00008a;
     background-color: rgb(233, 233, 255);
     border-radius: 2rem;
-    
+
 }
-::placeholder{
-  
-    padding:2rem;
+
+::placeholder {
+
+    padding: 2rem;
     font-size: 1.9rem;
 }
-.out-data textarea{
+
+.out-data textarea {
     margin-top: 10.4rem;
     width: 35rem;
     height: 15rem;
@@ -83,16 +104,16 @@ h1{
 
 }
 
-#btn-translate{
+#btn-translate {
     width: 4rem;
-    height:4rem;
-    
+    height: 4rem;
+
     margin-top: 15.8rem;
     margin-left: 8rem;
     margin-right: 8rem;
     color: rgb(0, 180, 0);
     background-color: rgb(171, 248, 156);
-    font-size:4rem;
+    font-size: 4rem;
     padding-bottom: 4.2rem;
-    padding-left:0.3rem;
+    padding-left: 0.3rem;
 }
